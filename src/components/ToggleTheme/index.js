@@ -7,6 +7,7 @@ export default () => (
   <ThemeToggler>
     {({ theme, toggleTheme }) => (
       <IconWrapper
+        aria-label={`Activate ${theme === "light" ? "dark" : "light"} theme`}
         isDark={theme === "dark"}
         onClick={() => toggleTheme(theme === "light" ? "dark" : "light")}
       >
