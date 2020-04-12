@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `easy commit`,
+        short_name: `easycommit`,
         start_url: `/`,
         background_color: `#8a4baf`,
         theme_color: `#8a4baf`,
@@ -28,10 +28,14 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [`poppins\:100,300,400,700,900,900i`],
-        display: "swap",
+        fonts: [
+          {
+            family: `Poppins`,
+            variants: [`400`, `700`, `900i`],
+          },
+        ],
       },
     },
     `gatsby-plugin-dark-mode`,
