@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const IconWrapper = styled.button`
   position: fixed;
-  top: 25px;
-  right: 25px;
+  top: 1em;
+  right: 1em;
   padding: 0;
   appearance: none;
   align-items: center;
@@ -19,10 +19,14 @@ export const IconWrapper = styled.button`
   vertical-align: middle;
   width: 40px;
   outline: 0;
+  @media screen and (min-width: 480px) {
+    top: 5em;
+    right: 5em;
+  }
 `
 
 export const MoonOrSun = styled.div`
-  border: ${p => (p.isDark ? `4px` : `2px`)} solid var(--textLink);
+  border: 2px solid ${p => (p.isDark ? `var(--text)` : `var(--textLink)`)};
   background: ${p => (p.isDark ? "var(--text)" : "var(--textLink)")};
   border-radius: 50%;
   height: 24px;

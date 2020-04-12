@@ -9,7 +9,7 @@ export default createGlobalStyle`
     margin: 0;
     padding: 1em;
     font-family: "Poppins", sans-serif;
-    transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
     -webkit-font-smoothing: antialiased;
     
     background-color: var(--bg);
