@@ -4,7 +4,7 @@ export default createGlobalStyle`
   body {
     --bg: white;
     --text: #333e4d;
-    --textLink: #8a4baf;
+    --textLink: #5BC0BE;
 
     margin: 0;
     padding: 1em;
@@ -17,9 +17,9 @@ export default createGlobalStyle`
   }
 
   body.dark {
-    --bg: #1a1427;
+    --bg: #1C2541;
     --text: #d0d0d1;
-    --textLink: #b17acc;
+    --textLink: #5BC0BE;
   }
 
   a {
