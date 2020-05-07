@@ -21,8 +21,8 @@ module.exports = {
         name: `easy commit`,
         short_name: `easycommit`,
         start_url: `/`,
-        background_color: `#8a4baf`,
-        theme_color: `#8a4baf`,
+        background_color: `#5BC0BE`,
+        theme_color: `#5BC0BE`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },

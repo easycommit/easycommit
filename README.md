@@ -4,6 +4,8 @@
   </a>
 </p>
 
+<!-- color scheme https://coolors.co/0b132b-1c2541-3a506b-5bc0be-ffffff -->
+
 <h2>hi people,</h2>
 <p>
   we develop and maintain web/mobile applications for startups, enterprises and tech teams.
